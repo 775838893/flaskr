@@ -1,0 +1,7 @@
+# 依赖此公共文件
+-r common.txt
+
+coverage==5.1
+Faker==0.7.18
+httpie==2.1.0
+selenium==3.141.0

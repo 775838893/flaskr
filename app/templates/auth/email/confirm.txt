@@ -1,0 +1,9 @@
+亲爱的 {{ user.username }},
+
+欢迎访问博客网站!
+
+如需确认你的账户请点击以下链接:
+
+{{ url_for('auth.confirm', token=token, _external=True) }}
+
+注意：请不要回复此邮件地址.
