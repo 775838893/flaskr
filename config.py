@@ -7,10 +7,10 @@ class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'hard to guess string'
     MAIL_SERVER = os.environ.get('MAIL_SERVER', 'smtp.qq.com')
     MAIL_PORT = int(os.environ.get('MAIL_PORT', '25'))
-    MAIL_USERNAME = os.environ.get('MAIL_USERNAME', '775838893@qq.com')
+    MAIL_USERNAME = os.environ.get('MAIL_USERNAME', 'your_email_address')
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD', 'igjhjhmrsaqnbfbe')
     FLASKY_MAIL_SUBJECT_PREFIX = '[Flasky]'
-    FLASKY_MAIL_SENDER = 'Flasky Admin <775838893@qq.com>'
+    FLASKY_MAIL_SENDER = 'Flasky Admin <your_email_address>'
     FLASKY_ADMIN = os.environ.get('FLASKY_ADMIN')
     FLASKY_POSTS_PER_PAGE = 10  # 分页显示的条数
     FLASKY_FOLLOWERS_PER_PAGE = 10  # 关注者分页显示条数
